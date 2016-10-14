@@ -46,7 +46,7 @@ class Trie:
 			return True
 		
 
-	def startsWith(self,prefix):
+	def starts_with(self,prefix):
 		return self.search(prefix,False)
 
 
