@@ -6,6 +6,13 @@ def main():
 	bst.print_level_order()
 
 class BinarySearchTree:
+	"""
+	Binary search tree structure. Each node has
+	a left and right child node. All children in 
+	left subtree should be <= parent node.
+	All children in right subtree should be
+	>= parent node.
+	"""
 	
 	def __init__(self,nodes):
 		self.root = None
